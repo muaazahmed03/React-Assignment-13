@@ -24,7 +24,7 @@ function ProductCard({ title, imgSrc, desc }) {
         style={{ width: "100%", height: "150px", objectFit: "cover" }}
       />
       <h3>{title}</h3>
-      <p>{desc.slice(0, 100)}</p>
+      <p>{desc}</p>
       <button
         onClick={handleViewClick}
         style={{
